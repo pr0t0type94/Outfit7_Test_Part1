@@ -63,10 +63,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\I_Shootable.cs" />
-    <Compile Include="Assets\Scripts\InputController_Script.cs" />
-    <Compile Include="Assets\Scripts\PlayerController_Script.cs" />
-    <Compile Include="Assets\Scripts\SpaceShip_BaseClass.cs" />
+    <Compile Include="Assets\Scripts\Bullet_Script.cs" />
+    <Compile Include="Assets\Scripts\Earth_Script.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SpaceShip_Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Wave.cs" />
+    <Compile Include="Assets\Scripts\Enemies\WaveSpawner.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\Asteroid.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\SpaceShip_BaseClass.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\TimeController.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\Weapon.cs" />
+    <Compile Include="Assets\Scripts\GameManager_Script.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSpaceship.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpsManager.cs" />
+    <Compile Include="Assets\Scripts\Utilities\CameraController_Script.cs" />
+    <Compile Include="Assets\Scripts\Utilities\CustomJoystick.cs" />
+    <Compile Include="Assets\Scripts\Utilities\EarthRotation_Script.cs" />
+    <Compile Include="Assets\Scripts\Utilities\GameobjectsPool_Script.cs" />
+    <Compile Include="Assets\Scripts\Utilities\HealtBar_Script.cs" />
+    <Compile Include="Assets\Scripts\Utilities\HealthSystem.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

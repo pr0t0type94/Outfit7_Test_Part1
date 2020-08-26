@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Combustion_Graph
+  m_Shader: {fileID: -6465566751694194690, guid: c9c1b9d307a26f94aa858427be37440b,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Boolean_A2AFC661: 1
+    - Vector1_A8AED7B: 1.02
+    - Vector1_A9B2F83C: 0.07
+    - Vector1_EC84FB20: 1
+    m_Colors:
+    - Color_4611062E: {r: 2, g: 0.22239473, b: 0.047169805, a: 0}

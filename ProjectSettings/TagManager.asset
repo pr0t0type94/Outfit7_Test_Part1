@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - WorldLimit
+  - EnemyTarget
   layers:
   - Default
   - TransparentFX
@@ -13,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Post-Processing
+  - Player-Bullets
+  - Enemy-Bullets
+  - Player
   - 
   - 
   - 
@@ -40,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: MenuLayer
+    uniqueID: 532216263
     locked: 0
